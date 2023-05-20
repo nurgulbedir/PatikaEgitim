@@ -1,8 +1,8 @@
 import java.util.Scanner;
-
+//Bir sayının basamak sayılarının toplamını hesaplayan program yazınız. Örnek : 1643 = 1 + 6 + 4 + 3 = 14
 public class BasamakToplam {
     public static void main(String[] args) {
-        //Bir sayının basamak sayılarının toplamını hesaplayan program yazınız. Örnek : 1643 = 1 + 6 + 4 + 3 = 14
+       
         Scanner k=new Scanner(System.in);
         int toplam=0 ;
         System.out.print("Sayı giriniz: ");
