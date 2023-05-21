@@ -36,7 +36,7 @@ public class ATM {
                                 System.out.println("Bakiye yetersiz. Başka işlem yapınız!");
                             else
                                 balance -= price;
-                            System.out.println("Kalan para miktarı"+balance);
+                            System.out.println("Kalan para miktarı: "+balance);
                             break;
                         case 3:
                             System.out.println("Bakiyeniz : " + balance);
