@@ -16,6 +16,6 @@ public class EbobEkok {
         }
         System.out.println("EBOB = " + ebob);
         ekok=(n1*n2)/ebob;
-        System.out.println("EKOK = "+ekok);
+        System.out.println("EKOK = "+ ekok);
     }
 }
