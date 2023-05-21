@@ -5,7 +5,7 @@ public class TersUcgen {
         Scanner k = new Scanner(System.in);
         System.out.print("Ters ücgen kac basamaklı olsun? ");
         int sayi = k.nextInt();
-        for (int i = (sayi - 1); i >= 0; i--) { //alt taraf
+        for (int i = (sayi - 1); i >= 0; i--) { 
             for (int j = 0; j < (sayi - i); j++) {
                 System.out.print(" ");
             }
