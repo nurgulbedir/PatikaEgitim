@@ -115,10 +115,12 @@ public class GelismisHesapMakinesi {
     }
     static void rectangle(){
         Scanner scan = new Scanner(System.in);
-        System.out.print("Yarıçapı giriniz :");
-        int r=scan.nextInt();
-        System.out.println("Daire Çevre: "+2*Math.PI*r);
-        System.out.println("Daire Alan: "+Math.PI*r*r);
+        System.out.print("1. kenarı giriniz :");
+        int m=scan.nextInt();
+        System.out.print("2. kenarı giriniz :");
+        int k=scan.nextInt();
+        System.out.println("Dikdörtgen Çevre: "+2*(m+k));
+        System.out.println("Dikdörtgen Alan: "+ m*k);
 
     }
 
