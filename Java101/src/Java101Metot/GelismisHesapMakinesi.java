@@ -1,4 +1,3 @@
-import java.nio.channels.Pipe;
 import java.util.Scanner;
 
 public class GelismisHesapMakinesi {
